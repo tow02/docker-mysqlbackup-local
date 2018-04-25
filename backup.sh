@@ -14,7 +14,7 @@ set -e
 DIR="/backup"
 
 # Generate a timestamp to name the backup files with.
-TS=$(date +%s)
+TS=$(date +%Y%m%d%H%M%S)
 
 # Backup all databases, unless a list of databases has been specified
 if [ -z "$DBS" ]
