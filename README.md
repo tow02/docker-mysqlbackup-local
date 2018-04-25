@@ -4,7 +4,7 @@
 
 Use `docker exec <container> /backup.sh` to take an immediate backup.
 
-Backup every 12 hours
+Backup every 2 hours
 
 References
  - https://github.com/nickbreen/docker-mysql-backup-cron
